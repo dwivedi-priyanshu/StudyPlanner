@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+frontend/dist/
+backend/dist/
+
+# Runtime/temp files
+tmp/
+temp/
+.cache/
+.parcel-cache/
+*.pid
+*.seed
+*.pid.lock
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel / Render local config
+.vercel/
+
